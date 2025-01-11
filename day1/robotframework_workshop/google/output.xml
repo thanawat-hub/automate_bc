@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-11T16:57:54.261394" rpa="false" schemaversion="5">
+<suite id="s1" name="Google1 Variable" source="D:\________Z____________Desktop_now\PIM\go_soft\onsite_workshop\automate_bc\day1\robotframework_workshop\google\google1_variable.robot">
+<test id="s1-t1" name="ทดสอบใส่คำค้นหา Robot Framework" line="5">
+<kw name="เปิดเว็บเบราว์เซอร์เข้า Google">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-11T16:57:54.722967" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<arg>url=${URL}</arg>
+<arg>browser=${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-11T16:57:54.721968" elapsed="3.950293"/>
+</kw>
+<status status="PASS" start="2025-01-11T16:57:54.720958" elapsed="3.952301"/>
+</kw>
+<kw name="ใส่คำค้นหา">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-01-11T16:57:58.674838" level="INFO">Typing text 'PIM' into text field 'name=q'.</msg>
+<arg>name=${BYNAME}</arg>
+<arg>${KEYWORD_SEARCH}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-01-11T16:57:58.674331" elapsed="0.095693"/>
+</kw>
+<status status="PASS" start="2025-01-11T16:57:58.673259" elapsed="0.096765"/>
+</kw>
+<kw name="กดปุ่ม Enter">
+<kw name="Press Keys" owner="SeleniumLibrary">
+<msg time="2025-01-11T16:57:58.771036" level="INFO">Sending key(s) ('RETURN',) to name=q element.</msg>
+<msg time="2025-01-11T16:57:59.064115" level="INFO">Pressing special key RETURN to element.</msg>
+<msg time="2025-01-11T16:57:59.064115" level="INFO">Releasing special key RETURN.</msg>
+<arg>name=${BYNAME}</arg>
+<arg>RETURN</arg>
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<status status="PASS" start="2025-01-11T16:57:58.771036" elapsed="1.282731"/>
+</kw>
+<status status="PASS" start="2025-01-11T16:57:58.770024" elapsed="1.283743"/>
+</kw>
+<kw name="ตรวจสอบผลการค้นหา expected_result">
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>${EXPECTED_RESULT}</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2025-01-11T16:58:00.054769" elapsed="0.041999"/>
+</kw>
+<status status="PASS" start="2025-01-11T16:58:00.053767" elapsed="0.043001"/>
+</kw>
+<kw name="ปิดเว็บเบราว์เซอร์">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-11T16:58:00.097768" elapsed="2.773244"/>
+</kw>
+<status status="PASS" start="2025-01-11T16:58:00.097768" elapsed="2.773244"/>
+</kw>
+<status status="PASS" start="2025-01-11T16:57:54.719958" elapsed="8.151054"/>
+</test>
+<status status="PASS" start="2025-01-11T16:57:54.263394" elapsed="8.608624"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Google1 Variable">Google1 Variable</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
