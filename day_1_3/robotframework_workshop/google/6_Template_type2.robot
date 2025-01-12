@@ -16,10 +16,11 @@ ${BROWSER}      chrome
 ${BYNAME}       q
 
 
-*** Test Cases ***                     คำค้น        ผลการค้นหา
+*** Test Cases ***    คำค้น    ผลการค้นหา
 ทดสอบใส่คำค้นหา Danmachi ควรเจอ anime    Danmachi    anima
-ทดสอบใส่คำค้นหา AI ควรเจอ OpenAI         AI          OpenAI
-ทดสอบใส่คำค้นหา GPT ควรเจอ OpenAI        GPT         OpenAI
+ทดสอบใส่คำค้นหา AI ควรเจอ OpenAI    AI    OpenAI
+ทดสอบใส่คำค้นหา GPT ควรเจอ OpenAI    GPT    OpenAI
+
 
 *** Keywords ***
 เปิดเว็บเบราว์เซอร์และเข้า Google
