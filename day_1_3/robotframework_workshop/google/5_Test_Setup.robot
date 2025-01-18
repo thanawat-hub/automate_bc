@@ -1,4 +1,6 @@
+*** Comments ***
 ## I Think this is a function to pass argument
+
 *** Settings ***
 Library    SeleniumLibrary
 Test Setup    เปิดเว็บเบราว์เซอร์และเข้า Google

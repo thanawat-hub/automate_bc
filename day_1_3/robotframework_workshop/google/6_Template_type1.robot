@@ -1,5 +1,4 @@
 *** Comments ***
-## I Think this is a function to pass argument
 
 
 *** Settings ***

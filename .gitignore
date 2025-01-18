@@ -4,4 +4,9 @@ report.html
 log.xml
 log.html
 
+*.png
+.jpeg
+.jpg
+.gif
+
 .idea
