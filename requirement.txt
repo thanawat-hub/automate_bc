@@ -8,3 +8,6 @@ robotframework-seleniumlibrary==6.7.0
 
 #### ไว้จัด format robotframework
 robotframework-tidy==4.15.0
+
+#### make report to dashboard more beautiful
+robotframework-metrics==3.7.0
