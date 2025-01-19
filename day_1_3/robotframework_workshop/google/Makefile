@@ -1,2 +1,2 @@
 run_robot:
-	robot google1_variable.robot.robot
+	robot 1_structure.robot
